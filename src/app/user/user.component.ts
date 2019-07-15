@@ -12,10 +12,10 @@ export class UserComponent implements OnInit {
     id: 1,
     name: 'María',
     surname: 'Rodríguez',
-    phone: 666333222,
+    phoneNumber: 666333222,
     street: 'Carrer Calvet 158',
-    city: 'Barcelona',
-    zipcode: 8
+    city: 'Sabadell',
+    zipcode: 8204
   };
   constructor() { };
 

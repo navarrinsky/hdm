@@ -5,5 +5,5 @@ export class User {
     street: string;
     zipcode: number;
     city: string;
-    phone: number;
+    phoneNumber: number;
   }

@@ -1,8 +1,8 @@
 <h2>Ficha técnica de {{user.name}} {{user.surname}}</h2>
 <div><span>id: </span>{{user.id}}</div>
-<div><span>Nombre: </span>{{user.name}}</div>
+<div><span>Nombre: </span><input [(ngModel)]="user.name" placeholder="Nombre"/></div>
 <div><span>Apellidos: </span>{{user.surname}}</div>
 <div><span>Calle: </span>{{user.street}}</div>
-<div><span>Ciudad: </span>{{user.city}</div>
+<div><span>Ciudad: </span>{{user.city}}</div>
 <div><span>Código Postal: </span>{{user.zipcode}}</div>
-<div><span>Teléfono: </span>{{user.phone}}</div>
+<div><span>Teléfono: </span>{{user.phoneNumber}}</div>
