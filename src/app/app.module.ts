@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
+import { FormComponent } from './form/form.component';
 
 
 
@@ -15,6 +16,7 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     UserComponent,
     LoginComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { LoginComponent } from './login/login.component';
     FormsModule,
     RouterModule.forRoot([
       {path: 'listado', component: UserComponent},
-      {path: 'login', component: LoginComponent}
+      {path: 'login', component: LoginComponent},
+      {path: 'formulario', component: FormComponent}
     ])
   ],
   providers: [],
