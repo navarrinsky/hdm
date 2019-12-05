@@ -1,9 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="150" alt="Angular Logo" src="http://inroca.com.co/wp-content/uploads/2016/02/icono-mano-casa-inroca.png">
+<div class="container">
+  <app-navbar></app-navbar>
 </div>
 
-<router-outlet></router-outlet>
+<div class="columns">
+  <div class="column is-half is-offset-one-quarter">  
+    <router-outlet></router-outlet>
+  </div>
+</div>

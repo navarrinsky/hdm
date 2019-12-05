@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
 import { FormComponent } from './form/form.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -17,6 +18,7 @@ import { FormComponent } from './form/form.component';
     UserComponent,
     LoginComponent,
     FormComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
